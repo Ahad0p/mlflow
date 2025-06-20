@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Environment files
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# Model & data artifacts
+*.pkl
+*.joblib
+*.npy
+model.pkl
+Artifacts/
+final_model/
+saved_models/
+feature_store/
+datasets/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# MLflow & DagsHub
+mlruns/
+dagshub.log
+
+# OS files
+.DS_Store
+Thumbs.db
